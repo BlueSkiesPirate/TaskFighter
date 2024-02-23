@@ -1,0 +1,52 @@
+#top_nav{
+height:12.5vh;
+display: flex;
+background-color: pink;
+}
+#greeting_conatiner {
+  /* background-color: pink; */
+  width :50%;
+  height:100%;
+  font-size: 20px;
+  padding:5px;
+  padding-top:15px;
+}
+#user_container{
+  /* background-color: pink; */
+  width:50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu{
+  width:3vh;
+  height: 3vh;
+}
+#user_img{
+  width:10vh;
+  height: 6vh;
+}
+
+/* MAIN DASHBOARD*/ 
+#main_dashboard{
+  height:25vh;
+  background-color: aqua;
+}
+/*  DAILY TASKS*/
+#daily_tasks{
+  height:20vh;
+  background-color: limegreen;
+}
+/* OTHER WIDGETS  */
+#other_widgets{
+  height:17.5vh;
+  background-color:orange;
+}
+
+/* PROJECTS  */
+#projects_container{
+  height:25vh;
+  background-color:red;
+}
