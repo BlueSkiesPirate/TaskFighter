@@ -1,22 +1,21 @@
 
-/* This is a comment
- */
+body{
+  background-color: #F9EBEB;
+}
 
 #top_nav{
 height:12.5vh;
+background-color: #F9EBEB;
 display: flex;
-background-color: pink;
 }
 #greeting_conatiner {
-  /* background-color: pink; */
   width :50%;
   height:100%;
   font-size: 20px;
   padding:5px;
-  padding-top:15px;
+  padding-top:20px;
 }
 #user_container{
-  /* background-color: pink; */
   width:50%;
   height: 100%;
   display: flex;
@@ -36,21 +35,130 @@ background-color: pink;
 /* MAIN DASHBOARD*/ 
 #main_dashboard{
   height:25vh;
-  background-color: aqua;
+  background-color: #F9EBEB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*  DAILY TASKS*/
 #daily_tasks{
   height:20vh;
-  background-color: limegreen;
+  background-color: #F9EBEB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* OTHER WIDGETS  */
 #other_widgets{
   height:17.5vh;
-  background-color:orange;
+  background-color: #F9EBEB;
+  display: flex;
+  justify-content: space-around;
 }
 
 /* PROJECTS  */
 #projects_container{
   height:25vh;
-  background-color:red;
+  background-color: #F9EBEB;
+  display: flex;
+}
+
+#dash{
+  height: 173px;
+  width:90%;
+  background-color: #2e1949;
+  border: 1px solid #2e1949;
+  border-radius: 10px;
+  display: flex;
+}
+
+
+#daily_tasks_container{
+  height: 94px;
+  width:90%;
+  background-color:white;
+  border: 1px solid black;
+  border-radius: 10px;
+
+}
+
+.other_widget{
+  height: 94px;
+  width:40%;
+
+}
+
+#side_quests{
+  border: 1px solid #FF9B05;
+  border-radius: 10px;
+}
+
+#battle{
+  background-color:#FFD600;
+  border: 2px solid #FFD600;
+  border-radius: 10px;
+}
+#project_container{
+  height: 180px;
+  width:300px;
+  background-color:#FF7676;
+}
+
+
+
+#dash_left{
+  width:40%;
+  background-color: white;
+  height:100%
+}
+
+#dash_middle{
+  width:20%;
+  height:100%;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction:column;
+}
+
+.dash_middle_container{
+  height:40px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#dash_right{
+  width:30%;
+  height:100%;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction:column;
+
+}
+.dash_right_container{
+height:40px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+#health{
+  height:30px;
+  width: 120px;
+  background-color: red;
+  border:1px solid red;
+  border-radius: 10px;
+
+}
+
+#lvl_text{
+  color:#00FFC2;
+  font-size: 20px;
+  font-weight: bold;
+}
+#coin_number{
+  color:#FECB00;
+  font-size: 20px;
+  font-weight: bold;
 }
